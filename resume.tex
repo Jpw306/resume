@@ -66,11 +66,26 @@
   }
 }
 
-\newcommand{\resumeSubheading}[4]{
+\newcommand{\resumeEducationSubheading}[4]{
   \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubheading}[3]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} \\
+      \textit{\small{#2}} & #3 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeExtendedSubheading}[2]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textit{\small{#1}} & #2 \\
     \end{tabular*}\vspace{-7pt}
 }
 
@@ -111,6 +126,7 @@
 \begin{center}
     \textbf{\Huge \scshape Jake Wright} \\ \vspace{1pt}
     \href{mailto:JakeWright@ucf.edu}{\underline{JakeWright@ucf.edu}} $|$ 
+    \small 727-437-9168 $|$
     \href{https://linkedin.com/in/jpw306/}{\underline{linkedin.com/in/jpw306/}}
 \end{center}
 
@@ -121,7 +137,7 @@
 %-----------EDUCATION-----------
 \section{Education}
   \resumeSubHeadingListStart
-    \resumeSubheading
+    \resumeEducationSubheading
       {University of Central Florida}{Aug. 2022 -- May 2026}
       {Bachelor of Science in Computer Science}{Orlando, FL}
   \resumeSubHeadingListEnd
@@ -131,17 +147,25 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
+      {Wabtec Corporation}
+      {Software Engineer Intern}{May 2025 -- Present}
+      \resumeItemListStart
+        \resumeItem{Collaborated cross-functionally to work on and validate multiple defects with thousands of cumulative line changes}
+        \resumeItem{Worked on multiple software changes on production code that got thoroughly tested and reviewed}
+        \resumeItem{Researched and presented AI best practices to boost productivity during the software development cycle}
+      \resumeItemListEnd
+
+    \resumeExtendedSubheading
       {Systems and Software Engineer Intern}{May 2024 -- July 2024}
-      {Wabtec Corporation}{Melbourne, FL}
       \resumeItemListStart
         \resumeItem{Collaborated cross-functionally to manage thousands of system functional requirements}
         \resumeItem{Created two detailed software design documents for various subsystems}
-        \resumeItem{Created, analyzed, and filtered through large data matrices exceeding 20,000 data points in Excel}
+        \resumeItem{Created, analyzed, and filtered through large data matrices exceeding 20,000 data points in Microsoft Excel}
       \resumeItemListEnd
 
     \resumeSubheading
+      {Northrop Grumman}
       {Software Engineer Intern}{May 2023 -- July 2023}
-      {Northrop Grumman}{Melbourne, FL}
       \resumeItemListStart
         \resumeItem{Automated and optimized secure file transfer over serial with PowerShell}
         \resumeItem{Created and updated documentation for procedures and code base}
@@ -149,8 +173,8 @@
     \resumeItemListEnd
 
     \resumeSubheading
+      {Code Ninjas}
       {Coding Instructor}{Feb. 2021 -- July 2022}
-      {Code Ninjas}{Viera, FL}
       \resumeItemListStart
         \resumeItem{Taught fundamentals of programming and computer skills to children ages 5-14}
         \resumeItem{Lead multiple instructional camps over summer that covered a variety of programming applications}
@@ -190,9 +214,9 @@
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Proficient}{: DOORS, Agile Workflow, Atlassian Suite, Java, C, Python, Git, GitHub, PowerShell, HTML, CSS} \\
-     \textbf{Working Towards Proficiency}{: C++, Javascript} \\
-     \textbf{Certifications}{: Java, Adobe Premiere Pro, Adobe After Effects}
+     \textbf{Proficient}{: Git, Agile Software Development, DOORS, C++, Java, Python, C, PowerShell, HTML, CSS} \\
+     \textbf{Working Towards Proficiency}{: Real-Time Operating Systems, Javascript} \\
+     \textbf{Certifications}{: Java}
     }}
  \end{itemize}
 
